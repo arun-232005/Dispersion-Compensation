@@ -1,4 +1,4 @@
-# Dispersion-Compensation
+
 # Dispersion Compensation
 
 ## Objective
@@ -70,9 +70,15 @@ The main physical components of this layout are:
 
 ## Further Simulation and Analysis
 - Set the DCF length to 0 and run the simulation again.  
-- Record similar measurements for comparison.  
+- Record similar measurements for comparison.
 
----
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0742cd4b-3273-4eaf-ae46-5f1126bea878" />
+  
 
-## Conclusions
-Discuss the effectiveness of dispersion-compensating fiber and the ability of the calculations to engineer a viable system.
+## TABULATION
+<img width="990" height="1230" alt="WhatsApp Image 2026-05-27 at 21 22 23" src="https://github.com/user-attachments/assets/6f6c285d-4718-43b3-9687-3d158e540ad9" />
+
+
+## RESULT
+
+By solving the system equations to balance the power budget and achieve total dispersion cancellation ($D_{SMF}L_{SMF} + D_{DCF}L_{DCF} = 0$), the implementation of the calculated SMF and DCF lengths successfully neutralized chromatic dispersion. OptiSystem simulations verified that this configuration yields a wide-open eye diagram, an optimal Q-factor $\ge 6$, and a BER $\le 10^{-9}$ at the receiver. Removing the DCF (setting length to 0) introduced severe pulse broadening and Inter-Symbol Interference (ISI), closing the eye diagram and failing the performance criteria.
